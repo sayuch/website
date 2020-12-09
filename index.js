@@ -1,5 +1,5 @@
 function play_se(){
-    var BGM = new Audio(`BGM.mp3`);
+    var BGM = new Audio(`koike.mp3`);
     BGM.play();
 }
 
