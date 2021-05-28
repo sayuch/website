@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>sayu ch のホームページ</title>
+</head>
+<body>
+    <!--     
+
+            このサイトは
+
+            ░██████╗░█████╗░██╗░░░██╗██╗░░░██╗  ░█████╗░██╗░░██╗
+            ██╔════╝██╔══██╗╚██╗░██╔╝██║░░░██║  ██╔══██╗██║░░██║
+            ╚█████╗░███████║░╚████╔╝░██║░░░██║  ██║░░╚═╝███████║
+            ░╚═══██╗██╔══██║░░╚██╔╝░░██║░░░██║  ██║░░██╗██╔══██║
+            ██████╔╝██║░░██║░░░██║░░░╚██████╔╝  ╚█████╔╝██║░░██║
+            ╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░░╚═════╝░  ░╚════╝░╚═╝░░╚═╝  
+        
+            によって作られました
+            
+            え？スマホ版が雑だって？
+            なんのことだろ(面倒臭いからやらなかっただけですなんでもするので許して下さい(なんでもするとは言ってない))
+        -->
+    <header class="animationLogo">
+        <div class="header_wrapper">
+            <video id="video" playsinline autoplay muted>
+                <source src="back-aqua.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="header_background">
+            <div class="header">
+                <div class="header_container">
+                    <div class="header_logo">
+                        <a href="index.html">
+                            <img src="logo.png" class="enji">
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="https://www.youtube.com/c/sayuch">YouTube</a></li>
+                            <li><a href="https://twitter.com/YT_sayu_ch2">Twitter</a></li>
+                            <li><a href="https://discord.gg/rVyEbemWbU">Discord</a></li>
+                            <li><a href="BOT.html">BOT</a></li>
+                            <li><a href="https://www.mirrativ.com/user/7062121">Mirrativ</a></li>
+                            <li><a href="up.html">Uploader</a></li>
+                            <li><a href="https://marshmallow-qa.com/yt_sayu_ch2">質問箱</a></li>
+                            <li><a href="intro.html">自己紹介</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_second_container">
+            <div class="banner">
+                <div class="typed_wrap">
+                    <h1><span class="typed"></span></h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+
+    <script>
+        $(function () {
+            $(".typed").typed({
+                strings: [
+                 "<span style='color:fuchsia'>ようこそ！",
+                 "<span style='color:fuchsia'>sayu chのホームページへ",
+                 "<span style='color:fuchsia'>ゆっくりしていってね",
+                 "<span style='color:fuchsia'>上のバーから色んなリンクに飛べるよ",
+                 "<span style='color:fuchsia'>一番右から",
+                 "<span style='color:fuchsia'>自己紹介",
+                 "<span style='color:fuchsia'>質問箱",
+                 "<span style='color:fuchsia'>Uploader",
+                 "<span style='color:fuchsia'>Mirrativ",
+                 "<span style='color:fuchsia'>様々なBOT",
+                 "<span style='color:fuchsia'>Discordサーバー",
+                 "<span style='color:fuchsia'>Twitter",
+                 "<span style='color:fuchsia'>YouTube",
+                 "<span style='color:fuchsia'>となってるよ！"
+                ],
+                typeSpeed: 100,
+                startDelay: 1000,
+                backSpeed: 20,
+                backDelay: 500,
+                loop: true,
+                loopCount: 100,
+                showCursor: false
+            });
+        });
+    </script>
+</body>
+</html>
