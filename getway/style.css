@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-color: Black;
+    color: White;
+}
+
+a {
+    text-decoration: none;
+    color: SkyBlue;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.headmenu {
+    font-size: 40px;
+}
+
+.bodymenu {
+    font-size: 30px;
+}
+
+.footmenu {
+    font-size: 15px;
+}
+
+.tweet {
+    color: #FFFFFF;
+    background-color: #00ACEE;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
